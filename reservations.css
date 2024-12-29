@@ -1,0 +1,60 @@
+
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    	rgba(0, 0, 0, 0.5)),url("travel3.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.contenu{
+	width:400px;
+	height: 700px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+	margin-left: 450px;
+	margin-bottom: 40px;
+    
+}
+h2{
+	font-size: xx-large;
+	font-weight: 500;
+	line-height:30px;
+	font-style: italic;
+	color: #FD6C9E;
+	
+	
+}
+.bg-img{
+	width: 70px;
+	height: 70px;
+	cursor: pointer;
+	margin-left: 60px;
+	margin-top: 10px;
+}
+a{
+	margin-left: 100px;
+}
+a:visited{
+		color: red;
+} 
+a:link{;
+	    color: blue  ;
+	   
+}
+.btn{
+	margin-left: 900px;
+	padding: 12px 0;
+	border-radius: 20px;
+	color: #fff;
+	background: #3A8EBA;
+	font-size: 12px;
+	width: 100px;
+	outline: none;
+	
+}

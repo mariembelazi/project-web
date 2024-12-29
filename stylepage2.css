@@ -1,0 +1,48 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto',sans-serif;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(photo5.jpg);
+	background-position:center ;
+	background-size: cover;
+	padding-left:8% ;
+	padding-right: 8%;
+	box-sizing: border-box;
+}
+
+.card{
+	width: 280px;
+	height: 300px;
+	display: inline-block;
+	border-radius:10px ;
+	padding: 25px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 40px 120px;
+	background-position:center ;
+	background-size: cover;
+	transition: transform 0.7s;
+}
+.card1{
+	background-image:url(imagedess.jfif) ;
+}
+.card2{
+	background-image:url(imagnord.jfif) ;
+}
+.card3{
+	background-image:url(imagetab.jfif) ;
+}
+.card4{
+	background-image:url(imagesous.jfif) ;
+}
+.card:hover{
+	transform:translate3d(20px, 20px, 10px);
+}
+.h5{
+	color: #191970;
+}

@@ -1,0 +1,30 @@
+body{
+	
+    background-image:url("djerba2.jpg") ;
+}
+.bg-img{
+	width: 40px;
+	cursor: pointer;
+	margin-top: 10px;
+
+}
+
+h6{
+	color: #DE3163;
+	font-size:30px;
+	text-align: center;
+}
+
+h4{
+	color: #318CE7;
+
+}
+a{
+	margin-left: 300px;
+}
+.box{
+	justify-content: center;
+	align-items: center;
+	margin-left: 90px;
+	background: #F0FFFF;
+}

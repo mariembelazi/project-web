@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Belazi Mariem</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      body {
+        background: linear-gradient(to right, #81657c, #deabaf);
+        font-family: "Arial", sans-serif;
+        color: #333;
+      }
+      .profile-photo {
+        max-width: 150px;
+        border-radius: 50%;
+        margin: 0 auto 20px;
+        display: block;
+        border: 6px solid #ffffff;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+      .developer-theme {
+        background-color: #ffffff;
+        border: 2px solid #ffffff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        padding: 30px;
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+      }
+      .developer-theme:hover {
+        transform: scale(1.03);
+      }
+      .title {
+        color: #ce6a6b;
+        font-weight: bold;
+        font-size: 3rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        margin-bottom: 20px;
+      }
+      .subtitle {
+        color: #eeeeee;
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+        color: #333;
+        font-size: 1.1rem;
+      }
+      ul li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      ul li i {
+        margin-right: 10px;
+        color: #ce6a6b;
+      }
+      .section {
+        padding: 60px 20px;
+      }
+      .content h2 {
+        color: #212e53;
+        border-bottom: 2px solid #212e53;
+        padding-bottom: 5px;
+        font-size: 1.2rem;
+      }
+      .content p {
+        color: #555;
+        font-size: 1rem;
+      }
+      .skills-bar {
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 20px;
+        margin-bottom: 10px;
+      }
+      .skills-bar span {
+        display: block;
+        height: 100%;
+      }
+      .skill-title {
+        color: #333;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+      .project {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+      }
+      .project-title {
+        font-size: 1.5rem;
+        color: #ce6a6b;
+        margin-bottom: 10px;
+      }
+      .project-description {
+        color: #555;
+      }
+
+      /* Styles pour la section "Formation" */
+      .formation {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+      }
+      .formation:hover {
+        transform: scale(1.03);
+      }
+      .formation-title {
+        font-size: 1.5rem;
+        color: #ce6a6b;
+        margin-bottom: 10px;
+      }
+      .formation-description {
+        color: #555;
+        font-size: 1.1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-8">
+            <div class="box developer-theme">
+              <div class="content has-text-centered">
+                <img
+                  src="https://via.placeholder.com/150"
+                  alt="Photo de profil"
+                  class="profile-photo"
+                />
+                <h1 class="title">Belazi Mariem</h1>
+                <p class="subtitle">Développeuse Informatique</p>
+              </div>
+
+              <div class="content">
+                <h2 class="subtitle">À propos de moi</h2>
+                <p>
+                  Je suis une développeuse passionnée par la programmation et
+                  l'informatique. J'ai une solide formation en informatique de
+                  gestion, et je suis constamment à la recherche de nouveaux
+                  défis pour développer mes compétences.
+                </p>
+
+                <h2 class="subtitle">Contact</h2>
+                <ul>
+                  <li>
+                    <i class="fas fa-calendar-alt"></i>Date de naissance :
+                    04/01/2001
+                  </li>
+                  <li>
+                    <i class="fas fa-envelope"></i>Email :
+                    belazimariem2001@gmail.com
+                  </li>
+                  <li><i class="fas fa-phone"></i>Tél : 53421030</li>
+                  <li>
+                    <i class="fas fa-map-marker-alt"></i>Adresse :
+                    Bouargoub-Nabeul
+                  </li>
+                </ul>
+
+                <h2 class="subtitle">Compétences Techniques</h2>
+                <div class="skill-title">JavaScript</div>
+                <div class="skills-bar">
+                  <span style="width: 80%; background-color: #be9cc7"></span>
+                </div>
+
+                <div class="skill-title">Microsoft Office</div>
+                <div class="skills-bar">
+                  <span style="width: 90%; background-color: #be9cc7"></span>
+                </div>
+
+                <div class="skill-title">Eclipse</div>
+                <div class="skills-bar">
+                  <span style="width: 70%; background-color: #be9cc7"></span>
+                </div>
+
+                <div class="skill-title">WampServer</div>
+                <div class="skills-bar">
+                  <span style="width: 60%; background-color: #be9cc7"></span>
+                </div>
+
+                <h2 class="subtitle">Projets</h2>
+                <div class="project">
+                  <div class="project-title">Gestion des tâches</div>
+                  <p class="project-description">
+                    Application web de gestion des tâches réalisée avec
+                    JavaScript et Node.js. Elle permet à l'utilisateur de créer,
+                    modifier et supprimer des tâches en temps réel.
+                  </p>
+                </div>
+
+                <div class="project">
+                  <div class="project-title">Site e-commerce</div>
+                  <p class="project-description">
+                    Développement d'un site e-commerce avec intégration de
+                    paiement en ligne. Le projet utilise HTML, CSS, JavaScript
+                    et PHP pour offrir une expérience utilisateur fluide.
+                  </p>
+                </div>
+
+                <div class="project">
+                  <div class="project-title">Site de réservation de voyage</div>
+                  <p class="project-description">
+                    Développement d'une application web de réservation de voyage
+                    en utilisant HTML et Bulma CSS. Cette application permet de
+                    lister des hôtels selon les destinations, afficher des
+                    informations détaillées sur les hôtels, et effectuer des
+                    réservations en ligne. Une section "Contact" est également
+                    incluse avec un formulaire à remplir pour les demandes ou
+                    les suggestions.
+                  </p>
+                  <button class="button is-link">
+                    <a
+                      href="page n°1.html"
+                      style="color: white; text-decoration: none"
+                      >Consulter le projet</a
+                    >
+                  </button>
+                </div>
+
+                <h2 class="subtitle">Formation</h2>
+                <div class="formation">
+                  <div class="formation-title">
+                    2022 : Faculté des sciences économiques et de gestion de
+                    Nabeul
+                  </div>
+                  <p class="formation-description">
+                    Informatique de gestion. J'ai acquis des compétences solides
+                    en gestion des systèmes d'information et en développement
+                    informatique.
+                  </p>
+                </div>
+
+                <div class="formation">
+                  <div class="formation-title">
+                    2021-2022 : Institut supérieur d’administration des affaires
+                    de Sfax
+                  </div>
+                  <p class="formation-description">
+                    Informatique de gestion. Ce programme m'a permis de
+                    renforcer mes connaissances en gestion de projets
+                    informatiques et en technologies de l'information.
+                  </p>
+                </div>
+
+                <h2 class="subtitle">Langues</h2>
+                <div class="columns is-mobile">
+                  <div class="column is-half">
+                    <div class="language-item">
+                      <div class="language-title">
+                        <i class="fas fa-language"></i> Français: C2 (Maîtrise
+                        complète)
+                      </div>
+                      <div class="skills-bar">
+                        <span
+                          style="width: 100%; background-color: #be9cc7"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="column is-half">
+                    <div class="language-item">
+                      <div class="language-title">
+                        <i class="fas fa-language"></i> Anglais: B2
+                        (Intermédiaire supérieur)
+                      </div>
+                      <div class="skills-bar">
+                        <span
+                          style="width: 80%; background-color: #be9cc7"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="columns is-mobile">
+                  <div class="column is-half">
+                    <div class="language-item">
+                      <div class="language-title">
+                        <i class="fas fa-language"></i> Allemand: A2 (Débutant
+                        avancé)
+                      </div>
+                      <div class="skills-bar">
+                        <span
+                          style="width: 40%; background-color: #be9cc7"
+                        ></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <h2 class="subtitle">Centres d'intérêt</h2>
+                <ul>
+                  <li><i class="fas fa-camera"></i> Photographie</li>
+                  <li><i class="fas fa-laptop-code"></i> Programmation</li>
+                  <li><i class="fas fa-futbol"></i> Sport</li>
+                  <li>
+                    <i class="fas fa-code-branch"></i> Contribuer à l'Open
+                    Source
+                  </li>
+                  <li>
+                    <i class="fas fa-robot"></i> Intelligence Artificielle
+                  </li>
+                  <li>
+                    <i class="fas fa-code"></i> Apprentissage de nouvelles
+                    technologies
+                  </li>
+                  <li>
+                    <i class="fas fa-cogs"></i> Participer à des Hackathons
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
